@@ -49,14 +49,12 @@
   <ItemGroup>
     <Compile Include="Context\UnisystemContext.cs" />
     <Compile Include="EntitiesConfigurations\UserConfiguration.cs" />
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Unisystem.Domain\Unisystem.Domain.csproj">
       <Project>{FE4669C2-6B41-4D93-8EFC-0D20784B0DBB}</Project>
